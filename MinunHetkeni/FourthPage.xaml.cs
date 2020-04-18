@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace MinunHetkeni
 {
-    public partial class SecondPage : ContentPage
+    public partial class FourthPage : ContentPage
     {
-        public SecondPage()
+        public FourthPage()
         {
             InitializeComponent();
         }

@@ -8,42 +8,69 @@
     <ShellItem Title="Example"
            Icon="square.png">
 
-
         <ShellContent Title="Main"
-                  Icon="square.png">
-            <local:MainPage/>
+                            Icon="square.png">
+                            <local:MainPage/>
         </ShellContent>
 
 
         <ShellContent Title="Secondary"
-                  Icon="square.png">
-            <local:SecondPage/>
+                            Icon="square.png">
+                            <local:SecondPage/>
         </ShellContent>
-
     </ShellItem>
 
 
 
 
-        <ShellItem Title="Kakkos Example"
+    <ShellItem Title="Kakkos Example"
            Icon="square.png">
 
 
-        <ShellContent Title="Kakkos Main"
-                  Icon="square.png">
-            <local:MainPage/>
-        </ShellContent>
+            <ShellContent Title="Kakkos Main"
+                                Icon="square.png">
+                                 <local:MainPage/>
+            </ShellContent>
 
 
-        <ShellContent Title="Kakkos Secondary"
-                  Icon="square.png">
-            <local:SecondPage/>
-        </ShellContent>
+            <ShellContent Title="Kakkos Secondary"
+                                Icon="square.png">
+                                <local:SecondPage/>
+            </ShellContent>
 
     </ShellItem>
 
 
 
+
+    <ShellItem Title="kolmos example"
+           Icon="main.png">
+        <ShellSection>
+            <ShellContent Title="Kolmas Main"
+                          Icon="main.png">
+                            <local:MainPage/>
+            </ShellContent>
+            <ShellContent Title="Kolmas Secondary"
+                          Icon="sec.png">
+                            <local:ThirdPage/>
+            </ShellContent>
+        </ShellSection>
+    </ShellItem>
+
+
+    <ShellItem Title="neljäs example"
+        Icon="main.png">
+        <ShellSection>
+            <ShellContent Title="Neljäs Main"
+                            Icon="main.png">
+                            <local:MainPage/>
+            </ShellContent>
+            <ShellContent Title="Neljäs Secondary"
+                            Icon="sec.png">
+                            <local:FourthPage/>
+            </ShellContent>
+        </ShellSection>
+    </ShellItem>
 
 
 

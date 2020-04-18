@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinunHetkeni.Android", "MinunHetkeni.Android\MinunHetkeni.Android.csproj", "{028294AD-0942-4096-874D-930ABE9A0E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinunHetkeni", "MinunHetkeni\MinunHetkeni.csproj", "{CA48A692-5BBC-4583-89FA-5353F49A9B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{028294AD-0942-4096-874D-930ABE9A0E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028294AD-0942-4096-874D-930ABE9A0E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028294AD-0942-4096-874D-930ABE9A0E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028294AD-0942-4096-874D-930ABE9A0E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA48A692-5BBC-4583-89FA-5353F49A9B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA48A692-5BBC-4583-89FA-5353F49A9B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA48A692-5BBC-4583-89FA-5353F49A9B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA48A692-5BBC-4583-89FA-5353F49A9B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -4,19 +4,47 @@
              xmlns:local="clr-namespace:MinunHetkeni"
              x:Class="MinunHetkeni.AppShellPage">
 
-<ShellItem>
-    <ShellSection Title="Main">
-        <ShellContent>
+
+    <ShellItem Title="Example"
+           Icon="square.png">
+
+
+        <ShellContent Title="Main"
+                  Icon="square.png">
             <local:MainPage/>
         </ShellContent>
-    </ShellSection>
 
-    <ShellSection Title="Secondary">
-        <ShellContent>
+
+        <ShellContent Title="Secondary"
+                  Icon="square.png">
             <local:SecondPage/>
         </ShellContent>
-    </ShellSection>
-</ShellItem>
+
+    </ShellItem>
+
+
+
+
+        <ShellItem Title="Kakkos Example"
+           Icon="square.png">
+
+
+        <ShellContent Title="Kakkos Main"
+                  Icon="square.png">
+            <local:MainPage/>
+        </ShellContent>
+
+
+        <ShellContent Title="Kakkos Secondary"
+                  Icon="square.png">
+            <local:SecondPage/>
+        </ShellContent>
+
+    </ShellItem>
+
+
+
+
 
 
 

@@ -10,7 +10,7 @@ namespace MinunHetkeni
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AppShellPage();
         }
 
         protected override void OnStart()

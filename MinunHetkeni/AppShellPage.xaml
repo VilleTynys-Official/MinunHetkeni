@@ -4,14 +4,19 @@
              xmlns:local="clr-namespace:MinunHetkeni"
              x:Class="MinunHetkeni.AppShellPage">
 
-    <ShellItem>
-        <ShellSection>
-            <ShellContent>
-                <local:SecondPage/>
-            </ShellContent>
-        </ShellSection>
+<ShellItem>
+    <ShellSection Title="Main">
+        <ShellContent>
+            <local:MainPage/>
+        </ShellContent>
+    </ShellSection>
 
-    </ShellItem>
+    <ShellSection Title="Secondary">
+        <ShellContent>
+            <local:SecondPage/>
+        </ShellContent>
+    </ShellSection>
+</ShellItem>
 
 
 

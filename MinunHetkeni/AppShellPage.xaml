@@ -3,14 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MinunHetkeni"
              x:Class="MinunHetkeni.AppShellPage"
+             Shell.NavBarIsVisible="True"
+             BackgroundColor="#455A64"
+                ForegroundColor="White"
+                TitleColor="White"
+                DisabledColor="#B4FFFFFF"
+                UnselectedColor="#95FFFFFF"
+             
              FlyoutBackgroundImage="background.pgn"
+             
              FlyoutBackgroundImageAspect="AspectFill">
 
 
     <ShellItem Title="Etusivu"
-           Icon="ic_all_inclusive_24px.png">
+                Icon="ic_all_inclusive_24px.png">
 
-       
         <ShellContent Title="Etusivu"
                             Icon="ic_person.png">
                             <local:EtusivuPage/>

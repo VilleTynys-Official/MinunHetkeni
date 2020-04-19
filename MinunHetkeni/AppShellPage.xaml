@@ -2,7 +2,22 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MinunHetkeni"
-             x:Class="MinunHetkeni.AppShellPage">
+             x:Class="MinunHetkeni.AppShellPage"
+             FlyoutBackgroundImage="background.pgn"
+             FlyoutBackgroundImageAspect="AspectFill">
+
+
+    <ShellItem Title="Etusivu"
+           Icon="ic_all_inclusive_24px.png">
+
+       
+        <ShellContent Title="Etusivu"
+                            Icon="ic_person.png">
+                            <local:EtusivuPage/>
+        </ShellContent>
+    </ShellItem>
+
+
 
 
     <ShellItem Title="Omat tiedot"

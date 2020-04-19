@@ -4,7 +4,17 @@
              x:Class="MinunHetkeni.MeditaatiotPage">
 
 
-    <ContentPage.Content>
-        <Label Text="Täs voi scrollaamalla nähdä tarjolla olevat meditaatiot mukavana kuva-listauksena."/>
-    </ContentPage.Content>
+<StackLayout>
+    <Label Text="Aloita polkusi tästä."/>
+    <ImageButton Source="meditating_sitting.png"
+                 Aspect="AspectFill"/>
+
+
+
+    <Label Text="Aloita polkusi tästä."/>
+    <ImageButton Source="nuori_munkki.png"
+                 Aspect="AspectFill"/>
+</StackLayout>
+      
+
 </ContentPage>

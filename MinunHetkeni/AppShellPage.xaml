@@ -40,28 +40,26 @@
     <ShellItem Title="Mantrat"
            Icon="main.png">
         <ShellSection>
-            <ShellContent Title="Kolmas Main"
+            <ShellContent Title="Kaikki mantrat"
                           Icon="main.png">
-                            <local:MainPage/>
+                            <local:MantratPage/>
             </ShellContent>
-            <ShellContent Title="Kolmas Secondary"
-                          Icon="sec.png">
-                            <local:ThirdPage/>
-            </ShellContent>
+
         </ShellSection>
     </ShellItem>
 
 
-    <ShellItem Title="Anna palautetta"
+    <ShellItem Title="Meidän tarinamme ja palautteet"
         Icon="main.png">
         <ShellSection>
-            <ShellContent Title="Neljäs Main"
-                            Icon="main.png">
-                            <local:MainPage/>
-            </ShellContent>
-            <ShellContent Title="Neljäs Secondary"
+
+            <ShellContent Title="Meidän tarinamme"
                             Icon="sec.png">
-                            <local:FourthPage/>
+                            <local:MeidänTarinammePage/>
+            </ShellContent>
+            <ShellContent Title="Anna palautetta"
+                            Icon="main.png">
+                            <local:AnnaPalautettaPage/>
             </ShellContent>
         </ShellSection>
     </ShellItem>

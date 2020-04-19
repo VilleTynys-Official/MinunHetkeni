@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace MinunHetkeni
 {
-    public partial class OmatTiedotPage : ContentPage
+    public partial class AnnaPalautettaPage : ContentPage
     {
-        public OmatTiedotPage()
+        public AnnaPalautettaPage()
         {
             InitializeComponent();
         }

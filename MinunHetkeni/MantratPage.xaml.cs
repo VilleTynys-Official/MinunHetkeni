@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace MinunHetkeni
 {
-    public partial class MeditaatiotPage : ContentPage
+    public partial class MantratPage : ContentPage
     {
-        public MeditaatiotPage()
+        public MantratPage()
         {
             InitializeComponent();
         }

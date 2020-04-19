@@ -5,7 +5,7 @@
              x:Class="MinunHetkeni.AppShellPage">
 
 
-    <ShellItem Title="Example"
+    <ShellItem Title="Omat tiedot"
            Icon="square.png">
 
         <ShellContent Title="Main"
@@ -23,7 +23,7 @@
 
 
 
-    <ShellItem Title="Kakkos Example"
+    <ShellItem Title="Meditointi"
            Icon="square.png">
 
 
@@ -43,7 +43,7 @@
 
 
 
-    <ShellItem Title="kolmos example"
+    <ShellItem Title="Mantrat"
            Icon="main.png">
         <ShellSection>
             <ShellContent Title="Kolmas Main"
@@ -58,7 +58,7 @@
     </ShellItem>
 
 
-    <ShellItem Title="neljäs example"
+    <ShellItem Title="Anna palautetta"
         Icon="main.png">
         <ShellSection>
             <ShellContent Title="Neljäs Main"

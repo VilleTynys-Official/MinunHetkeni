@@ -16,6 +16,13 @@ namespace MinunHetkeni
         public MainPage()
         {
             InitializeComponent();
+
+
+            this.BackgroundImageSource = ImageSource.FromFile("square.png");
         }
+
+
+
+
     }
 }

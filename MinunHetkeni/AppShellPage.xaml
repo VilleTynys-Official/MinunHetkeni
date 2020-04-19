@@ -8,9 +8,9 @@
     <ShellItem Title="Omat tiedot"
            Icon="square.png">
 
-        <ShellContent Title="Main"
+        <ShellContent Title="Omat tiedot"
                             Icon="square.png">
-                            <local:MainPage/>
+                            <local:OmatTiedotPage/>
         </ShellContent>
 
 

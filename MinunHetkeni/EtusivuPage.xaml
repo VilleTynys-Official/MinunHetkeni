@@ -4,9 +4,8 @@
 
 
 
-         <Grid >
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-            <Image Source="background.png" Aspect="AspectFit"/>
-        </Grid >
+
+            <Image Source="background.png"/>
+
     </ContentPage.Content>
 </ContentPage>

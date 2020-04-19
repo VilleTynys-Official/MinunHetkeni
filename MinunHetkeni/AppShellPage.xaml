@@ -6,16 +6,16 @@
 
 
     <ShellItem Title="Omat tiedot"
-           Icon="square.png">
+           Icon="ic_person.png">
 
         <ShellContent Title="Omat tietoni"
-                            Icon="square.png">
+                            Icon="ic_person.png">
                             <local:OmatTiedotPage/>
         </ShellContent>
 
 
         <ShellContent Title= "Kehitykseni"
-                            Icon="square.png">
+                            Icon="ic_donut.png">
                             <local:KehitykseniPage/>
         </ShellContent>
     </ShellItem>
@@ -24,11 +24,11 @@
 
 
     <ShellItem Title="Meditointi"
-           Icon="square.png">
+           Icon="ic_sun.png">
 
 
             <ShellContent Title="Kaikki meditoinnit"
-                                Icon="square.png">
+                                Icon="ic_sun.png">
                                  <local:MeditaatiotPage/>
             </ShellContent>
 
@@ -38,10 +38,10 @@
 
 
     <ShellItem Title="Mantrat"
-           Icon="main.png">
+           Icon="ic_moon.png">
         <ShellSection>
             <ShellContent Title="Kaikki mantrat"
-                          Icon="main.png">
+                          Icon="ic_moon.png">
                             <local:MantratPage/>
             </ShellContent>
 
@@ -50,15 +50,15 @@
 
 
     <ShellItem Title="Lisätietoja ja palautteet"
-        Icon="main.png">
+        Icon="ic_flower.png">
         <ShellSection>
 
             <ShellContent Title="Meidän tarinamme"
-                            Icon="sec.png">
+                            Icon="ic_plant.png">
                             <local:MeidänTarinammePage/>
             </ShellContent>
             <ShellContent Title="Anna palautetta"
-                            Icon="main.png">
+                            Icon="ic_flower.png">
                             <local:AnnaPalautettaPage/>
             </ShellContent>
         </ShellSection>

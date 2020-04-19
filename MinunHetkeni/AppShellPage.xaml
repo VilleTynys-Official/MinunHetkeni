@@ -8,15 +8,15 @@
     <ShellItem Title="Omat tiedot"
            Icon="square.png">
 
-        <ShellContent Title="Omat tiedot"
+        <ShellContent Title="Omat tietoni"
                             Icon="square.png">
                             <local:OmatTiedotPage/>
         </ShellContent>
 
 
-        <ShellContent Title="Secondary"
+        <ShellContent Title= "Kehitykseni"
                             Icon="square.png">
-                            <local:SecondPage/>
+                            <local:KehitykseniPage/>
         </ShellContent>
     </ShellItem>
 
@@ -27,15 +27,9 @@
            Icon="square.png">
 
 
-            <ShellContent Title="Kakkos Main"
+            <ShellContent Title="Kaikki meditoinnit"
                                 Icon="square.png">
-                                 <local:MainPage/>
-            </ShellContent>
-
-
-            <ShellContent Title="Kakkos Secondary"
-                                Icon="square.png">
-                                <local:SecondPage/>
+                                 <local:MeditaatiotPage/>
             </ShellContent>
 
     </ShellItem>

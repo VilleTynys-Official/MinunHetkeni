@@ -7,9 +7,9 @@
 <StackLayout>
     <Label Text="Aloita polkusi tästä."/>
     <ImageButton Source="meditating_sitting.png"
-                 Aspect="AspectFill"/>
-
-
+                 Aspect="AspectFill"
+                 Clicked="PlayVideo"/>
+    
 
     <Label Text="Aloita polkusi tästä."/>
     <ImageButton Source="nuori_munkki.png"

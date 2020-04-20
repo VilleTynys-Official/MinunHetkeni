@@ -1,4 +1,5 @@
 ﻿using System;
+using MediaManager;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,6 +7,10 @@ namespace MinunHetkeni
 {
     public partial class App : Application
     {
+
+
+
+
         public App()
         {
             InitializeComponent();

@@ -10,7 +10,7 @@
                 DisabledColor="#B4FFFFFF"
                 UnselectedColor="#95FFFFFF"
              
-             FlyoutBackgroundImage="background.pgn"
+             FlyoutBackgroundImage="background.png"
              
              FlyoutBackgroundImageAspect="AspectFill">
 

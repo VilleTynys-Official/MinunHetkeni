@@ -9,7 +9,7 @@
     </ContentPage.BindingContext>
 
 
-    <StackLayout Margin="20,35,20,25" Spacing="10">
+    <StackLayout Margin="20,35,20,25" Spacing="20">
         <ListView x:Name="lvKategoriat"
                   RowHeight="120"
                   ItemsSource="{Binding Kategoriat}">

@@ -16,12 +16,19 @@
 
 
     <ShellItem Title="Etusivu"
-                Icon="ic_all_inclusive_24px.png">
+                Icon="ic_home_24px.png">
 
         <ShellContent Title="Etusivu"
-                            Icon="ic_person.png">
+                            Icon="ic_home_24px.png">
                             <local:EtusivuPage/>
         </ShellContent>
+
+
+        <ShellContent Title="Kaikki meditaatiot"
+                            Icon="ic_sun.png">
+                            <local:MeditaatiotPage/>
+        </ShellContent>
+
     </ShellItem>
 
 
@@ -45,11 +52,11 @@
 
 
 
-    <ShellItem Title="Meditointi"
+    <ShellItem Title="Kaikki meditaatiot"
            Icon="ic_sun.png">
 
 
-            <ShellContent Title="Kaikki meditoinnit"
+            <ShellContent Title="Kaikki meditaatiot"
                                 Icon="ic_sun.png">
                                  <local:MeditaatiotPage/>
             </ShellContent>

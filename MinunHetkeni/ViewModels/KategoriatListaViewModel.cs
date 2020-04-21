@@ -21,6 +21,33 @@ namespace MinunHetkeni.ViewModels
 
             Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
                 "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
+
+            Kategoriat.Add(new Kategoria("Tutustuminen Metta-meditointiin", "kategoria3.png",
+                "Tässä kolmannessa polussa tutustut Metta-meditointiin. Yhden harjoituksen kesto noin 10 minuuttia"));
         }
     }
 }

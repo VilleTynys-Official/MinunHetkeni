@@ -13,9 +13,8 @@ namespace MinunHetkeni.ViewModels
         {
             Kategoriat = new ObservableCollection<Kategoria>();
 
-            Kategoriat.Add(new Kategoria("Ensimmäiset askeleet", "ylaosa.png",
-                "Aloita tästä seitsemän päivän tutustumisjakso. Yhden harjoituksen kesto noin 10 minuuttia." +
-                " Ainut mitä tarvitset on oma rauhallinen paikka ilman häiriötekijöitä."));
+            Kategoriat.Add(new Kategoria("Ensimmäiset askeleet", "kategoria1.png",
+                "Aloita tästä seitsemän päivän tutustumisjakso. Yhden harjoituksen kesto noin 10 minuuttia."));
         }
     }
 }

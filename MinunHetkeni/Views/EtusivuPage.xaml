@@ -9,7 +9,7 @@
     </ContentPage.BindingContext>
 
 
-    <StackLayout Margin="20,35,20,25">
+    <StackLayout Margin="20,35,20,25" Spacing="10">
         <ListView x:Name="lvKategoriat"
                   RowHeight="120"
                   ItemsSource="{Binding Kategoriat}">
@@ -17,19 +17,32 @@
                 <DataTemplate>
                     <ViewCell>
                         <Grid>
-                            <Label Text="{Binding KategorianNimi}"
-                                   FontSize="Title"
-                                   FontAttributes="Bold"
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding KategorianKuva}"
                                    Grid.Column="0"
-                                   VerticalTextAlignment="Center"
+                                   Grid.RowSpan="2"
+                                   Aspect="Fill"                                   
+                                   />
+
+                            <Label                                   
+                                   Text="{Binding KategorianNimi}"
+                                   FontSize="Large"
+                                   FontAttributes="Bold"
+                                   Grid.Column="1"
+                                   Grid.Row="0"
+                                   VerticalTextAlignment="End"
                                    />
 
                             <Label Text="{Binding KategorianKuvaus}"
                                    FontSize="Small"
                                    FontAttributes="None"
-                                   Grid.Column="0"
+                                   Grid.Column="1"
                                    Grid.Row="1"
-                                   VerticalOptions="StartAndExpand"
+                                   VerticalOptions="Start"
                                    />
 
 

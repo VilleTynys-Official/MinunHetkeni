@@ -14,7 +14,7 @@ namespace MinunHetkeni
         public App()
         {
             InitializeComponent();
-
+            Device.SetFlags(new string[] { "MediaElement_Experimental" });          ///mediaElementtiä varten. Poista jos et käytä.
             MainPage = new AppShellPage();
         }
 

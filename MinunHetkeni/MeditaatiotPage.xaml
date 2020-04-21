@@ -8,14 +8,11 @@
             <StackLayout Spacing="2" x:Name="stäk">
 
                 <Label Text="Aloita polkusi tästä."/>
-                <ImageButton Source="meditating_sitting.png"
-                             Aspect="AspectFill"
+                <Button Text="Ensimmäinen istunto"
                              Clicked="PlayVideo"/>
- 
 
-                <Label Text="Aloita polkusi tästä."/>
-                <ImageButton Source="nuori_munkki.png"
-                             Aspect="AspectFill"/>
+
+                <Button Text="Toinen istunto"/>
             </StackLayout>
       </ScrollView>
 

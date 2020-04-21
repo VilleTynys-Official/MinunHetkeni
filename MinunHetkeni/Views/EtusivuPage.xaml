@@ -10,22 +10,26 @@
 
 
     <StackLayout Margin="20,35,20,25">
-        <ListView ItemsSource="{Binding kategoriat_lista}">
+        <ListView x:Name="lvKategoriat"
+                  RowHeight="100"
+                  ItemsSource="{Binding Kategoriat}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <Grid>
-                            <Label Text="Tähän tulee kuva"
-                                   FontSize="Large"
+                            <Label Text="{Binding KategorianNimi}"
+                                   FontSize="Title"
                                    FontAttributes="Bold"
                                    Grid.Column="0"
                                    VerticalTextAlignment="Start"/>
 
-                            <Label Text="Tähän tulee toinen kuva"
-                                   FontSize="Medium"
+                            <Label Text="{Binding KategorianKuvaus}"
+                                   FontSize="Small"
                                    FontAttributes="Bold"
-                                   Grid.Column="1"
-                                   VerticalTextAlignment="End"/>
+                                   Grid.Column="0"
+                                   Grid.Row="0"
+                                   VerticalOptions="CenterAndExpand"
+                                   />
 
 
 

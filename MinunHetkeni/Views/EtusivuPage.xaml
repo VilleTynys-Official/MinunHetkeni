@@ -21,11 +21,13 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
+                            
 
-                            <Image Source="{Binding KategorianKuva}"
+                            <ImageButton Source="{Binding KategorianKuva}"
                                    Grid.Column="0"
                                    Grid.RowSpan="2"
-                                   Aspect="Fill"                                   
+                                   Aspect="Fill"
+                                   Clicked="ImageButton_Clicked"
                                    />
 
                             <Label                                   
@@ -44,6 +46,7 @@
                                    Grid.Row="1"
                                    VerticalOptions="Start"
                                    />
+                           
 
 
 

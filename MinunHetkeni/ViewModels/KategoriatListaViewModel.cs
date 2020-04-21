@@ -7,7 +7,6 @@ namespace MinunHetkeni.ViewModels
     {
 
         public ObservableCollection<Kategoria> Kategoriat { get; set; }
-        
 
         public KategoriatListaViewModel()
         {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using MinunHetkeni.Views;
 using Xamarin.Forms;
 
 namespace MinunHetkeni
@@ -9,7 +9,9 @@ namespace MinunHetkeni
     {
         public AppShellPage()
         {
+            
             InitializeComponent();
+            Routing.RegisterRoute("EnsimmäinenKategoriaPage", typeof(EnsimmäinenKategoriaPage));     //shell routing kategorian alasivulle.
         }
     }
 }

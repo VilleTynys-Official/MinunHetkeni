@@ -36,6 +36,7 @@
 
     <ShellItem Title="Omat tiedot"
            Icon="ic_person.png">
+    
 
         <ShellContent Title="Omat tietoni"
                             Icon="ic_person.png">
@@ -47,6 +48,9 @@
                             Icon="ic_donut.png">
                             <local:KehitykseniPage/>
         </ShellContent>
+
+
+
     </ShellItem>
 
 

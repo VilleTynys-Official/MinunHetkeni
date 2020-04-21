@@ -1,9 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MinunHetkeni.EtusivuPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Local="clr-namespace:MinunHetkeni.ViewModels"
+             x:Class="MinunHetkeni.EtusivuPage">
+
+    <ContentPage.BindingContext>
+        <Local:KategoriatListaViewModel/>
+    </ContentPage.BindingContext>
 
 
     <StackLayout Margin="20,35,20,25">
+        <ListView ItemsSource="{Binding kategoriat_lista}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Label Text="Tähän tulee kuva"
+                                   FontSize="Large"
+                                   FontAttributes="Bold"
+                                   Grid.Column="0"
+                                   VerticalTextAlignment="Start"/>
 
+                            <Label Text="Tähän tulee toinen kuva"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"
+                                   Grid.Column="1"
+                                   VerticalTextAlignment="End"/>
+
+
+
+
+                        </Grid>
+                    </ViewCell>
+
+                </DataTemplate>
+
+
+
+            </ListView.ItemTemplate>
+
+
+
+
+
+        </ListView>
     </StackLayout>
 
 

@@ -4,13 +4,13 @@
              xmlns:local="clr-namespace:MinunHetkeni"
              x:Class="MinunHetkeni.AppShellPage"
              Shell.NavBarIsVisible="True"
-             BackgroundColor="#455A64"
-                ForegroundColor="White"
-                TitleColor="White"
+             BackgroundColor="WhiteSmoke"
+                ForegroundColor="DarkBlue"
+                TitleColor="DarkBlue"
                 DisabledColor="#B4FFFFFF"
-                UnselectedColor="#95FFFFFF"
+                UnselectedColor="DarkGray"
              
-             FlyoutBackgroundImage="background.png"
+             FlyoutBackgroundImage="sunset_background.png"
              
              FlyoutBackgroundImageAspect="AspectFill">
 

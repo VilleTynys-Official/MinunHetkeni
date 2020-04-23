@@ -19,6 +19,7 @@
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Classes\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\KehitykseniPage.xaml.cs" />

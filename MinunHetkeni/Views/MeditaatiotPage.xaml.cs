@@ -19,8 +19,6 @@ namespace MinunHetkeni
 
 
 
-
-
         void PlayVideo(System.Object sender, System.EventArgs e)
         {
             var player = CrossSimpleAudioPlayer.Current;

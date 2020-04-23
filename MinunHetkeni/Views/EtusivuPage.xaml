@@ -53,11 +53,7 @@
 
                         </Grid>
                     </ViewCell>
-
                 </DataTemplate>
-
-
-
             </ListView.ItemTemplate>
 
 

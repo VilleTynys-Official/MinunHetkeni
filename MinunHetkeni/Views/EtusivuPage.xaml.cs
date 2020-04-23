@@ -19,5 +19,7 @@ namespace MinunHetkeni
 
         //kun klikataan viewtä nii menee tähän routeen.
 
+        
+
     }
 }

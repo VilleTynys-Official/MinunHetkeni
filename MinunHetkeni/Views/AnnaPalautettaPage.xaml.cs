@@ -11,5 +11,9 @@ namespace MinunHetkeni
         {
             InitializeComponent();
         }
+
+
+
+
     }
 }

@@ -2,72 +2,97 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MinunHetkeni"
-             x:Class="MinunHetkeni.AppShellPage">
+             x:Class="MinunHetkeni.AppShellPage"
+             Shell.NavBarIsVisible="True"
+             BackgroundColor="WhiteSmoke"
+                ForegroundColor="DarkBlue"
+                TitleColor="DarkBlue"
+                DisabledColor="#B4FFFFFF"
+                UnselectedColor="DarkGray"
+             
+             FlyoutBackgroundImage="sunset_background.png"
+             
+             FlyoutBackgroundImageAspect="AspectFill">
 
 
-    <ShellItem Title="Example"
-           Icon="square.png">
+    <ShellItem Title="Etusivu"
+                Icon="ic_home_24px.png">
 
-        <ShellContent Title="Main"
-                            Icon="square.png">
-                            <local:MainPage/>
+        <ShellContent Title="Etusivu"
+                            Icon="ic_home_24px.png">
+                            <local:EtusivuPage/>
         </ShellContent>
 
 
-        <ShellContent Title="Secondary"
-                            Icon="square.png">
-                            <local:SecondPage/>
+        <ShellContent Title="Kaikki meditaatiot"
+                            Icon="ic_sun.png">
+                            <local:MeditaatiotPage/>
         </ShellContent>
-    </ShellItem>
-
-
-
-
-    <ShellItem Title="Kakkos Example"
-           Icon="square.png">
-
-
-            <ShellContent Title="Kakkos Main"
-                                Icon="square.png">
-                                 <local:MainPage/>
-            </ShellContent>
-
-
-            <ShellContent Title="Kakkos Secondary"
-                                Icon="square.png">
-                                <local:SecondPage/>
-            </ShellContent>
 
     </ShellItem>
 
 
 
 
-    <ShellItem Title="kolmos example"
-           Icon="main.png">
+    <ShellItem Title="Omat tiedot"
+           Icon="ic_person.png">
+    
+
+        <ShellContent Title="Omat tietoni"
+                            Icon="ic_person.png">
+                            <local:OmatTiedotPage/>
+        </ShellContent>
+
+
+        <ShellContent Title= "Kehitykseni"
+                            Icon="ic_donut.png">
+                            <local:KehitykseniPage/>
+        </ShellContent>
+
+
+
+    </ShellItem>
+
+
+
+
+    <ShellItem Title="Kaikki meditaatiot"
+           Icon="ic_sun.png">
+
+
+            <ShellContent Title="Kaikki meditaatiot"
+                                Icon="ic_sun.png">
+                                 <local:MeditaatiotPage/>
+            </ShellContent>
+
+    </ShellItem>
+
+
+
+
+    <ShellItem Title="Mantrat"
+           Icon="ic_moon.png">
         <ShellSection>
-            <ShellContent Title="Kolmas Main"
-                          Icon="main.png">
-                            <local:MainPage/>
+            <ShellContent Title="Kaikki mantrat"
+                          Icon="ic_moon.png">
+                            <local:MantratPage/>
             </ShellContent>
-            <ShellContent Title="Kolmas Secondary"
-                          Icon="sec.png">
-                            <local:ThirdPage/>
-            </ShellContent>
+
         </ShellSection>
     </ShellItem>
 
 
-    <ShellItem Title="neljäs example"
-        Icon="main.png">
+    <ShellItem Title="Lisätietoja ja palautteet"
+        Icon="ic_flower.png">
         <ShellSection>
-            <ShellContent Title="Neljäs Main"
-                            Icon="main.png">
-                            <local:MainPage/>
+
+            <ShellContent Title="Meidän tarinamme"
+                            Icon="ic_plant.png">
+                            <local:MeidänTarinammePage/>
             </ShellContent>
-            <ShellContent Title="Neljäs Secondary"
-                            Icon="sec.png">
-                            <local:FourthPage/>
+            <ShellContent Title="Anna palautetta"
+                            Icon="ic_flower.png">
+                            <local:AnnaPalautettaPage/>
             </ShellContent>
         </ShellSection>
     </ShellItem>

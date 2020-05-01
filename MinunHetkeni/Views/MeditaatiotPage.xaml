@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MinunHetkeni.MeditaatiotPage">
+
+
+        <ScrollView>
+            <StackLayout Spacing="2" x:Name="stäk">
+
+                <Label Text="Aloita polkusi tästä."/>
+                <Button Text="Ensimmäinen istunto"
+                             Clicked="PlayVideo"/>
+
+
+                <Button Text="Toinen istunto"/>
+            </StackLayout>
+      </ScrollView>
+
+</ContentPage>

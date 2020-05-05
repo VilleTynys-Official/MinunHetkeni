@@ -1,5 +1,5 @@
 # MinunHetkeni
-Simppeli pohja mobiilisovellukselle (Xamarin.forms -tekniikalla), johon voitaisiin myöhemmin ladata erilaisia meditointi ja läsnäolo harjoituksia.
+Xamarin.forms -tekniikalla toteutettu simppeli pohja mobiilisovellukselle. Tähän voidaan myöhemmin ladata erilaisia meditointi ja läsnäolo harjoituksia.
 
 Toteutettu demo-projektina Coding Bootcamp -koulutuksessa.
 
